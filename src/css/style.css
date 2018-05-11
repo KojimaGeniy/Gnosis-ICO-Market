@@ -1,0 +1,83 @@
+.markets {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.market-list {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+.market {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px dotted grey;
+}
+
+.market-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding:15px;
+}
+
+.market-number {
+    font-size: 18px;
+    color: grey;
+    margin-top: 40px;
+}
+
+.market-volume {
+    display: inline-block;
+    margin: 15px;
+    color: grey;
+}
+
+.addMarket {
+    width: 720px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px dotted grey;
+}
+
+.addMarket div {
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.addMarket div input {
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 70%;
+}
+
+.addMarket div textarea {
+    line-height: 24px;
+    width: 70%;
+    height: 70px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    transition: 0.4s;
+    margin: 0 7px;
+}
+a:focus, a:hover {
+    color: #00F082;
+}
+
+select {
+    width: 200px;
+}
